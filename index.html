@@ -5,7 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Solar Panel Installers In Plymouth" />
 
-    <link rel="preload" fetchpriority="high" as="image" href="/images/solar-panels-meadow.webp" type="image/webp">
+    <link
+      rel="preload"
+      fetchpriority="high"
+      as="image"
+      href="/images/solar-panels-meadow.webp"
+      type="image/webp"
+    />
     <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="/icons/sustainability.png" />
     <!-- Style -->
@@ -56,11 +62,15 @@
     <main class="landing">
       <div class="image">
         <img
-          src="/images/solar-panels-meadow.webp"
-          alt="image"
-          loading="eager"
-          fetchpriority="high"
-        />
+        src="/images/solar-panels-meadow.webp"
+        srcset="
+          /images/solar-panels-meadow_300.webp 300w,
+          /images/solar-panels-meadow.webp 1800w
+        "
+        alt="Solar panels in a meadow"
+        loading="eager"
+        fetchpriority="high"
+      />
       </div>
       <div class="container">
         <div class="pagination">
@@ -397,7 +407,7 @@
           <div class="third-section">
             <div class="reviewer">
               <div class="reviewer-profile">
-                <img src="images/profile.jpg" alt="" />
+                <img src="images/profile.webp" alt="" />
               </div>
               <div class="reviewer-details">
                 <p class="reviewer-name">Resky Fernanda</p>
