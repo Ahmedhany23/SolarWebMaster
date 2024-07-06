@@ -121,7 +121,17 @@
         </div>
         <div class="image">
           <!-- image -->
-          <img src="/images/sectionimage1.webp" alt="" />
+          <img
+          src="/images/sectionimage1.webp"
+          srcset="
+            /images/sectionimage1_300.webp  900w,
+            /images/sectionimage1.webp    1800w
+          "
+          sizes="(min-width:1400px) 1400px , 100vw"
+          alt="image"
+          loading="eager"
+          fetchpriority="high"
+        />
           <!-- icon -->
           <div class="polarizing">
             <img src="/icons/Solar Charging.png" alt="" />
