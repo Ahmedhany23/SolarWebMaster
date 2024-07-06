@@ -1,8 +1,17 @@
+@font-face {
+  font-family: Roboto;
+  src: url(fonts/Roboto/Roboto-Medium.ttf);
+}
+@font-face {
+  font-family: Inter;
+  src: url(fonts/Inter/static/Inter-Medium.ttf);
+}
+
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  font-family: "Inter", sans-serif;
+  font-family: Inter;
   margin: 0;
   padding: 0;
 }
@@ -326,7 +335,7 @@ ul {
 }
 
 .installers .container .text .list-items .list-item span {
-  font-family: "Roboto", sans-serif;
+  font-family: Roboto;
   font-weight: 500;
   color: var(--secondary);
   font-size: var(--size-lg);
@@ -334,7 +343,7 @@ ul {
 }
 
 .installers .container .text .list-items .list-item p {
-  font-family: "Roboto", sans-serif;
+  font-family: Roboto;
   font-weight: 500;
   color: #101828;
   font-size: var(--size-lg);
@@ -371,8 +380,8 @@ ul {
   height: 90px;
 }
 .installers .container .image .polarizing p {
-  font-family: "Roboto", sans-serif;
-  font-family: var(--font-light);
+  font-family: Roboto;
+  font-weight: var(--font-light);
   font-size: 500;
 }
 
