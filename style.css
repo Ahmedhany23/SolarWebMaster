@@ -1,10 +1,12 @@
 @font-face {
   font-family: Roboto;
   src: url(fonts/Roboto/Roboto-Medium.ttf);
+  font-display: swap;
 }
 @font-face {
   font-family: Inter;
   src: url(fonts/Inter/static/Inter-Medium.ttf);
+  font-display: swap;
 }
 
 * {
